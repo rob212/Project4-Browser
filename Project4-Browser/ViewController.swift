@@ -9,6 +9,8 @@
 import UIKit
 import WebKit
 
+// todo - add pragma marks to clean up code and add UIAlertView to inform user why they cannot click links taking them out of whitelisted sites and potential UITableView 
+// with a list of all initial sites that can be visited. 
 
 class ViewController: UIViewController, WKNavigationDelegate {
     var webView : WKWebView!
